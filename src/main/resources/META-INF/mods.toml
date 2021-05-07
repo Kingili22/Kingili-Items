@@ -29,10 +29,10 @@ displayName="Kingili's Items" #mandatory
 # A text field displayed in the mod UI
 credits="Thanks for this example mod goes to Java" #optional
 # A text field displayed in the mod UI
-authors="Kingii!" #optional
+authors="Kingili" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This is a mod where I learn how to make things in Forge, i might make it about specific things later!
+This is a mod about spears! Still very much in development!
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.examplemod]] #optional

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "  y",
+    " x ",
+    "x  "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:stick"
+    },
+    "y":
+    {
+      "item": "items:iron_spearhead"
+    }
+  },
+  "result":
+  {
+    "item": "items:wood_spear"
+  }
+}

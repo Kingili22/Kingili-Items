@@ -14,9 +14,12 @@ public class ModItems {
     public static final RegistryObject<Item> COPPER_WIRE =
             Registration.ITEMS.register("copper_wire",
                     () -> new Item(new Item.Properties().group(Items.ITEMS_TAB).maxStackSize(16)));
-    public static final RegistryObject<Item> PLACE_HOLDER =
-            Registration.ITEMS.register("placeholder",
-                    () -> new Item(new Item.Properties().group(Items.ITEMS_TAB)));
+    public static final RegistryObject<Item> WOOD_SPEAR =
+            Registration.ITEMS.register("wood_spear",
+                    () -> new Item(new Item.Properties().group(Items.ITEMS_TAB).maxStackSize(1)));
+    public static final RegistryObject<Item> IRON_SPEARHEAD =
+            Registration.ITEMS.register("iron_spearhead",
+                    () -> new Item(new Item.Properties().group(Items.ITEMS_TAB).maxStackSize(16)));
     public static void register() { }
 
 }
